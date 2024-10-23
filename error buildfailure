@@ -1,0 +1,122 @@
+command used command .\mvnw clean install -U -DskipTests
+
+
+
+
+error 
+
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Keycloak 999.0.0-SNAPSHOT:
+[INFO]
+[INFO] Keycloak BOM Parent ................................ SUCCESS [  2.481 s]
+[INFO] Keycloak BOM for server extensions ................. SUCCESS [  0.041 s]
+[INFO] Keycloak ........................................... SUCCESS [  0.086 s]
+[INFO] Keycloak Common .................................... SUCCESS [  4.047 s]
+[INFO] Keycloak Core ...................................... SUCCESS [  2.692 s]
+[INFO] Keycloak Server SPI ................................ SUCCESS [  1.878 s]
+[INFO] Keycloak Server Private SPI ........................ SUCCESS [ 15.305 s]
+[INFO] Keycloak Crypto Parent ............................. SUCCESS [  0.064 s]
+[INFO] Keycloak Crypto Default ............................ SUCCESS [  0.960 s]
+[INFO] Keycloak SAML Core Public API ...................... SUCCESS [  5.435 s]
+[INFO] Keycloak SAML Core ................................. SUCCESS [  4.908 s]
+[INFO] Keycloak Model Parent .............................. SUCCESS [  0.100 s]
+[INFO] Keycloak Database Support .......................... SUCCESS [  0.594 s]
+[INFO] Keycloak Database Support - Private classes ........ SUCCESS [  1.503 s]
+[INFO] Keycloak Quarkus Parent ............................ SUCCESS [  0.087 s]
+[INFO] Keycloak Configuration API ......................... SUCCESS [  2.464 s]
+[INFO] Keycloak REST Services ............................. SUCCESS [  7.700 s]
+[INFO] Keycloak Crypto FIPS 140-2 Integration ............. SUCCESS [  3.024 s]
+[INFO] Keycloak Crypto Wildfly Elytron Integration ........ SUCCESS [ 12.646 s]
+[INFO] Keycloak JavaScript Parent ......................... SUCCESS [  0.067 s]
+[INFO] Keycloak Admin UI .................................. SUCCESS [05:55 min]
+[INFO] Keycloak Account UI ................................ SUCCESS [02:00 min]
+[INFO] Keycloak Themes .................................... SUCCESS [ 46.123 s]
+[INFO] Keycloak Dependencies Parent ....................... SUCCESS [  0.161 s]
+[INFO] Keycloak Dependencies Server Min ................... SUCCESS [  0.467 s]
+[INFO] Keycloak Model JPA ................................. SUCCESS [  9.576 s]
+[INFO] Keycloak Kerberos Federation ....................... SUCCESS [  0.755 s]
+[INFO] Keycloak LDAP UserStoreProvider .................... SUCCESS [  1.277 s]
+[INFO] Keycloak Database Support - REST services .......... SUCCESS [  1.150 s]
+[INFO] Keycloak Model Infinispan .......................... SUCCESS [  7.361 s]
+[INFO] Keycloak SSSD Federation ........................... SUCCESS [ 10.039 s]
+[INFO] Keycloak Authz: Parent ............................. SUCCESS [  0.138 s]
+[INFO] Keycloak AuthZ: Policy Provider Parent ............. SUCCESS [  0.098 s]
+[INFO] Keycloak AuthZ: Common Policy Providers ............ SUCCESS [  1.115 s]
+[INFO] Keycloak Dependencies Server All ................... SUCCESS [  0.175 s]
+[INFO] Keycloak Administration UI ......................... SUCCESS [  0.085 s]
+[INFO] Admin UI REST extensions ........................... SUCCESS [ 54.000 s]
+[INFO] Keycloak Quarkus Server Extension .................. SUCCESS [ 51.437 s]
+[INFO] Keycloak Quarkus Server Deployment ................. SUCCESS [  6.764 s]
+[INFO] Keycloak Docs Parent ............................... SUCCESS [  0.188 s]
+[INFO] Keycloak Guides Maven Plugin ....................... SUCCESS [ 53.477 s]
+[INFO] Keycloak Guides .................................... SUCCESS [01:25 min]
+[INFO] Keycloak Federation ................................ SUCCESS [  0.083 s]
+[INFO] Keycloak Util Embedded LDAP ........................ SUCCESS [ 17.401 s]
+[INFO] Keycloak Util Parent ............................... SUCCESS [  2.299 s]
+[INFO] Keycloak Integration ............................... SUCCESS [  0.238 s]
+[INFO] Keycloak Admin REST Client for tests ............... SUCCESS [ 12.824 s]
+[INFO] Keycloak Client Registration API ................... SUCCESS [  2.650 s]
+[INFO] Keycloak Client CLI ................................ SUCCESS [  0.113 s]
+[INFO] Keycloak Admin CLI ................................. SUCCESS [  6.708 s]
+[INFO] Keycloak Client CLI Distribution ................... SUCCESS [  1.704 s]
+[INFO] Keycloak Adapter SPI ............................... SUCCESS [  2.516 s]
+[INFO] Common JBoss/Wildfly Core Classes .................. SUCCESS [  1.883 s]
+[INFO] Keycloak Client Adapter SPI Modules ................ SUCCESS [  0.084 s]
+[INFO] Keycloak SAML Client Adapter Public API ............ SUCCESS [  2.135 s]
+[INFO] Keycloak SAML Client Adapter Core .................. SUCCESS [  8.213 s]
+[INFO] Keycloak WildFly Elytron SAML Adapter .............. SUCCESS [  3.616 s]
+[INFO] Keycloak Wildfly SAML Adapter Subsystem ............ SUCCESS [ 22.505 s]
+[INFO] Keycloak SAML Wildfly Integration .................. SUCCESS [  0.055 s]
+[INFO] Keycloak SAML Client Adapter Modules ............... SUCCESS [  0.156 s]
+[INFO] Keycloak Adapters .................................. SUCCESS [  0.154 s]
+[INFO] Keycloak Authz: Client API ......................... SUCCESS [  2.700 s]
+[INFO] Keycloak JavaScript Admin Client ................... SUCCESS [ 43.848 s]
+[INFO] Keycloak UI shared components ...................... SUCCESS [ 25.297 s]
+[INFO] Keycloak JavaScript Adapter ........................ SUCCESS [ 11.174 s]
+[INFO] Keycloak Quarkus Server App ........................ SUCCESS [01:37 min]
+[INFO] Keycloak Quarkus Server Distribution ............... SUCCESS [55:32 min]
+[INFO] Keycloak Quarkus Test Parent ....................... SUCCESS [  1.915 s]
+[INFO] Keycloak Quarkus Server JUnit 5 Internal Test Framework SUCCESS [01:24 min]
+[INFO] Keycloak Test Framework ............................ SUCCESS [ 50.908 s]
+[INFO] Keycloak Quarkus Server Integration tests .......... SUCCESS [ 30.373 s]
+[INFO] Keycloak TestSuite ................................. SUCCESS [  0.167 s]
+[INFO] Keycloak Arquillian Integration TestSuite .......... SUCCESS [  0.289 s]
+[INFO] Servers ............................................ SUCCESS [  0.111 s]
+[INFO] Auth Server ........................................ SUCCESS [  0.093 s]
+[INFO] Auth Server Services ............................... SUCCESS [  0.155 s]
+[INFO] Auth Server Services - Testsuite Providers Deployment SUCCESS [  8.793 s]
+[INFO] Auth Server Services - Testsuite Providers ......... SUCCESS [ 53.492 s]
+[INFO] Test Util .......................................... SUCCESS [ 27.330 s]
+[INFO] Test apps .......................................... SUCCESS [  0.118 s]
+[INFO] integration-arquillian-test-apps-servlets .......... SUCCESS [  4.984 s]
+[INFO] Keycloak TestSuite Utils ........................... SUCCESS [ 19.444 s]
+[INFO] Auth Server - Undertow ............................. SUCCESS [ 30.313 s]
+[INFO] Auth Server - Quarkus .............................. FAILURE [02:03 min]
+[INFO] App Server ......................................... SKIPPED
+[INFO] App Server - SPI ................................... SKIPPED
+[INFO] Keycloak Arquillian Integration TestSuite - Cache Server SKIPPED
+[INFO] Keycloak Arquillian Integration TestSuite - Cache Server - Infinispan SKIPPED
+[INFO] Keycloak Arquillian Integration TestSuite - Cache Server - Legacy SKIPPED
+[INFO] Tests .............................................. SKIPPED
+[INFO] Base TestSuite ..................................... SKIPPED
+[INFO] Other Tests Modules ................................ SKIPPED
+[INFO] Tests for logical storage layer .................... SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:21 h
+[INFO] Finished at: 2024-10-23T10:59:37+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-antrun-plugin:1.8:run (ant-generate-default) on project integration-arquillian-servers-auth-server-quarkus: An Ant BuildException has occured: The following error occurred while executing this line:
+[ERROR] D:\zblackcoffer project\New folder\keycloak\testsuite\integration-arquillian\servers\auth-server\quarkus\ant\configure.xml:10: exec returned: 1
+[ERROR] around Ant part ...<ant antfile="ant/configure.xml" target="config">... @ 4:52 in D:\zblackcoffer project\New folder\keycloak\testsuite\integration-arquillian\servers\auth-server\quarkus\target\antrun\build-main.xml
+[ERROR] -> [Help 1]
+[ERROR]
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR]
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[ERROR]
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <args> -rf :integration-arquillian-servers-auth-server-quarkus
